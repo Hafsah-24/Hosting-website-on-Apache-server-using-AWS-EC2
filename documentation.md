@@ -6,9 +6,9 @@ This project is to create a secure and scalable web server on AWS EC2 configurin
 
 1. Go to EC2 on AWS Console, create and launch an instance. Set name, create new key pair or use an exising one and choose Ubuntu as AMI.
 
-![1](images/apache 2.png)
+![1](images/apache%202.png)
 
-![1](images/apache 3.png)
+![1](images/apache%203.png)
 
-![1](images/apache 4.png)
+![1](images/apache%204.png)
 
