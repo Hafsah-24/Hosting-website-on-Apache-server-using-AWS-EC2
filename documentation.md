@@ -6,15 +6,38 @@ This project is to create a secure and scalable web server on AWS EC2 configurin
 
 1. Go to EC2 on AWS Console, create and launch an instance. 
 
-a. Set name for your instance 
+    a. Set name for your instance 
 
-![1](images/apache%202.png)
+    ![1](images/apache%202.png)
 
-b. Choose Ubuntu as AMI under Quick Start
+    b. Choose **Ubuntu** as AMI under Quick Start
 
-![1](images/apache%203.png)
+    ![1](images/apache%203.png)
 
-c. Create new key pair or use an exising one
+    c. Create new key pair or use an exising one
 
-![1](images/apache%204.png)
+    ![1](images/apache%204.png)
+
+    d. Enable traffic from the internet by clicking the checkboxes, then click **"Launch instance"**. After instance is launched, Connect to instance.
+
+    ![1](images/apache%205.png)
+
+    e. On the *Connect* page, click *Connect using Public IP* to Connect to instance and the Ubuntu terminal comes up.
+
+    ![1](images/apache%207.png)
+
+2. After the terminal comes up, run the following commands to install and setup the apache server:
+    *sudo apt update*   #To setup the Apt package manager used to install packages on Ubuntu#
+    *sudo apt install apache2*  #To install the Apache server#
+    *sudo systemctl start apache2*  #To start the Apache server#
+    *sudo systemctl enable apache2* #To enable boot time so the Apache server runs automatically#
+    *sudo systemctl status apache2* #To confirm boot time is enabled#
+
+    ![1](images/apache%208.png)
+
+    ![1](images/apache%209.png)
+
+    ![1](images/apache%2010.png)
+
+3. 
 
