@@ -1,6 +1,6 @@
 ## Setup Web Server Using Apache and AWS EC2 Instance
 
-This project is to create a secure and scalable web server on AWS EC2 configuring Apache2 as the web server software and hosting a simple, professional static landing page for the company.
+This project is to create a secure and scalable web server on AWS EC2 configuring Apache2 as the web server software and hosting a simple, professional static landing page for Elite Corporation.
 
 **Steps**
 
